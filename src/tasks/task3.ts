@@ -1,7 +1,10 @@
+import * as lodash from 'lodash'
+const _lodash = lodash
+
 // Level.1
 export const array: string[] = ['a', 'b', 'c', 'd', 'e', 'f'];
 //TODO 参照を切ってコピーしてください
-const _array: string[] = array;
+const _array: string[] = [...array];
 _array.pop();
 array.push('test');
 for (let i = 0; 10 > i; i++) {
@@ -40,7 +43,7 @@ export const array2: Array2Type[] = [
   },
 ];
 //TODO 参照を切ってコピーしてください
-const _array2: Array2Type[] = array2;
+const _array2: Array2Type[] = _lodash.cloneDeep(array2);
 for (let i = 0; i < array2.length; i++) {
   array2[i].id = '0';
   array2[i].name = 'yamada';
@@ -94,7 +97,7 @@ export const array3: Array3Type[] = [
   },
 ];
 //TODO 参照を切ってコピーしてください
-const _array3: Array3Type[] = array3;
+const _array3: Array3Type[] = _lodash.cloneDeep(array3);
 for (let i = 0; i < array3.length; i++) {
   array3[i].id = '0';
   array3[i].name = 'yamada';
