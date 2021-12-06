@@ -1,0 +1,9 @@
+# module
+node_modules/
+# buildファイル
+build/
+# macが勝手に作るディレクトリ情報ファイル
+.DS_Store
+# editor
+.idea/
+.vscode/
