@@ -1,7 +1,7 @@
 -- task1 / Animal --
   - 継承・カプセル化・ポリモーフィズムを使用して、Animalクラスを作成
 
--- task2 / {hoge} --
+-- task2 / { hoge, fuga } --
   - オブジェクト型変数の基本的な参照切り
 
 -- task3 / lodash --
