@@ -1,0 +1,18 @@
+-- task1 / Animal --
+  - 継承・カプセル化・ポリモーフィズムを使用して、Animalクラスを作成
+
+-- task2 / {hoge} --
+  - オブジェクト型変数の基本的な参照切り
+
+-- task3 / lodash --
+  - task2の発展、ディープコピーとシャローコピーについての理解
+  - lodash等ライブラリの活用
+
+-- task4 / testNum & testStr --
+  - Promiseメソッドの基本的な使い方
+  - resolve, rejectの使い方
+
+-- task5 / Ticket --
+  - task4の発展、await, asyncを利用してsetTimeoutされても正常に動作させる
+  - 指示通りの機能を実装する
+  - 自らロジックを考え追加機能を実装する
